@@ -1,0 +1,11 @@
+<% content_for :title, "New config" %>
+
+<h1>New config</h1>
+
+<%= render "form", config: @config %>
+
+<br>
+
+<div>
+  <%= link_to "Back to configs", configs_path %>
+</div>
