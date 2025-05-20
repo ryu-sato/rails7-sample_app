@@ -64,3 +64,7 @@ gem "json-schema", "~> 5.1"
 gem "pry-byebug", "~> 3.11"
 
 gem "pry", "~> 0.15.2"
+
+gem "activeadmin", "~> 3.0"
+
+gem "sass-rails", "~> 6.0"
