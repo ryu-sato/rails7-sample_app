@@ -58,3 +58,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "json-schema", "~> 5.1"
+
+gem "pry-byebug", "~> 3.11"
+
+gem "pry", "~> 0.15.2"
