@@ -14,7 +14,7 @@ ActiveAdmin.register Config do
 
   form do |f|
     f.inputs do
-      f.input :parameter, as: :text, input_html: render_json_editor(f, :parameter)
+      f.input :parameter, as: :text, input_html: render_json_editor_options(f, :parameter)
     end
     f.actions
   end

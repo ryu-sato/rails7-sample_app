@@ -4,10 +4,10 @@ module ActiveAdminHelper
       style: 'color: #ffffff; background-color: #6c757d')
   end
   
-  def render_json_editor(form, attribute)
+  def render_json_editor_options(form, attribute)
     json_value = form.object.send(attribute).present? ? 
       JSON.pretty_generate(form.object.send(attribute)) : '{}'
     
-    form.text_area attribute, value: json_value, class: 'jsoneditor'
+    { value: json_value, class: 'jsoneditor' }
   end
 end
