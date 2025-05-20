@@ -20,7 +20,8 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"rooveterinaryinc.roo-cline"
+				"rooveterinaryinc.roo-cline",
+				"cweijan.vscode-postgresql-client2"
 			]
 		}
 	}
