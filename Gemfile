@@ -59,7 +59,7 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "json-schema", "~> 5.1"
+gem "json-schema", "~> 5.2"
 
 gem "pry-byebug", "~> 3.11"
 
