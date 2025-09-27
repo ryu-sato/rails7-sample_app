@@ -1,0 +1,21 @@
+# Dependabot configuration to disable automatic updates
+# This configuration effectively disables auto-upgrades by setting
+# updates to be checked manually only and with no open pull requests limit
+
+version: 2
+updates:
+  # Disable Bundler (Ruby gem) updates
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    # Disable by setting to 0 open pull requests
+    open-pull-requests-limit: 0
+    
+  # Disable GitHub Actions updates  
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    # Disable by setting to 0 open pull requests
+    open-pull-requests-limit: 0
